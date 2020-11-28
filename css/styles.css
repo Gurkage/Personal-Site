@@ -31,7 +31,7 @@ margin-bottom: 5%;
   text-align: center;
   color: #f9f7f7;
   background-color: #112d4e;
-  height: 200px;
+  height: 300px;
 }
 
 .div2 {
@@ -40,7 +40,7 @@ margin-bottom: 5%;
   text-align: center;
   color: #f9f7f7;
   background-color: #3f72af;
-  height: 200px;
+  height: 250px;
 }
 
 .div3 {
@@ -50,5 +50,4 @@ margin-bottom: 5%;
   color: #112d4e;
   height: 200px;
   background-color: #dbe2ef;
-  height: 200px;
 }
