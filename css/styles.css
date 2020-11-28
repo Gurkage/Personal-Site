@@ -3,9 +3,26 @@
 /**********TAG SELECTORS**********/
 
 body {
+  margin-top: 10%;
+  might-right: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
   background-color: #f9f7f7;
   font-family: "Source Sans Pro";
-  color: #112d4e;
+  color: #3f72af;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+div {
+  padding: 10%;
+  border-radius: 10%;
+  height: 50%;
+  width: 50%;
+  color: #f9f7f7;
+  background-color: #112d4e;
 }
 
 /**********CLASS SELECTORS**********/
