@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
 /**********TAG SELECTORS**********/
 
 body {
   margin: 0;
   background-color: #f9f7f7;
-  font-family: "Source Sans Pro";
-  color: #3f72af;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #112d4e;
 }
 
 h1 {
   margin: 0;
+  font-family: 'Comfortaa', cursive;
 }
 
 h3 {
@@ -56,13 +55,13 @@ a:active {
 .cloud1 {
   position: absolute;
   top: 50px;
-  left: 150px;
+  left: 750px;
 }
 
 .cloud2 {
   position: absolute;
   top: 50px;
-  right: 150px;
+  right: 750px;
 }
 
 .ptitle {
@@ -76,13 +75,33 @@ a:active {
   color: #f9f7f7;
   background-color: #112d4e;
   margin: 0;
-  height: 467px;
+  height: 457px;
   width: 100%;
 }
 
-.div2 {
+.middle-container {
+  padding-top: 5px;
+  padding-bottom: 50px;
+  text-align: center;
   background-color: #4d873e;
   margin: 0;
-  height: 400px;
   width: 100%;
+}
+
+.bottom-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.linkedinimg {
+  width: 100px;
+  position: relative;
+  left: 5px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #112d4e;
+  color: #f9f7f7;
 }
