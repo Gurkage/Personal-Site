@@ -4,8 +4,8 @@
 
 body {
   margin-top: 5%;
-  margin-right: 30%;
-  margin-left: 30%;
+  margin-right: 5%;
+  margin-left: 5%;
   background-color: #f9f7f7;
   font-family: "Source Sans Pro";
   color: #3f72af;
@@ -62,4 +62,14 @@ margin-bottom: 5%;
   color: #112d4e;
   height: 230px;
   background-color: #dbe2ef;
+}
+
+.computer {
+  width: 150px;
+}
+
+.linkedin {
+  width: 150px;
+  position: relative;
+  left: 10px;
 }
