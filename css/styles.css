@@ -8,12 +8,17 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin: 10px;
+  font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+  margin: 10px;
   font-family: 'Comfortaa', cursive;
 }
 
 h3 {
-  margin: 0;
+  margin: 10px;
 }
 
 p {
@@ -68,6 +73,25 @@ a:active {
   margin: 5px;
 }
 
+.profile-pic {
+  border-radius: 50%;
+  height: 150px;
+}
+
+.desktop-image {
+  border-radius: 0;
+  height: 150px;
+}
+
+.businessman-image {
+  border-radius: 50%;
+  height: 150px;
+}
+
+.skill-row {
+  margin-top: 20px;
+}
+
 .top-container {
   padding-top: 100px;
   border-radius: 0;
@@ -75,15 +99,16 @@ a:active {
   color: #f9f7f7;
   background-color: #112d4e;
   margin: 0;
-  height: 457px;
+  height: 473px;
   width: 100%;
 }
 
 .middle-container {
-  padding-top: 5px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 0;
   text-align: center;
   background-color: #4d873e;
+  color: #f9f7f7;
   margin: 0;
   width: 100%;
 }
