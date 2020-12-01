@@ -1,79 +1,107 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
 /**********TAG SELECTORS**********/
 
 body {
-  margin-top: 5%;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin: 0;
   background-color: #f9f7f7;
-  font-family: "Source Sans Pro";
-  color: #3f72af;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #112d4e;
 }
 
 h1 {
   margin: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+  margin: 0;
 }
 
 p {
-  margin: 2%;
+  margin: 0;
 }
 
-div {
-margin-bottom: 5%;
+/**********URL config**********/
+
+a {
+    text-decoration: none;
+    color: #3f72af;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 /**********CLASS SELECTORS**********/
+
+.container {
+  position: relative;
+  width: 100%;
+  /*background-color: grey;*/
+}
+
+.cloud1 {
+  position: absolute;
+  top: 50px;
+  left: 750px;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 50px;
+  right: 750px;
+}
 
 .ptitle {
   margin: 5px;
 }
 
-.h1title {
-  margin: 5px;
-}
-
-.h2title {
-  margin: 5px;
-}
-
-.pdiv3 {
-  margin: 5px;
-}
-
 .div1 {
-  padding: 2%;
+  padding-top: 100px;
   border-radius: 0;
   text-align: center;
   color: #f9f7f7;
   background-color: #112d4e;
-  height: 300px;
+  margin: 0;
+  height: 457px;
+  width: 100%;
 }
 
-.div2 {
-  padding: 2%;
-  border-radius: 0;
+.middle-container {
+  padding-top: 5px;
+  padding-bottom: 50px;
   text-align: center;
-  color: #f9f7f7;
-  background-color: #3f72af;
-  height: 250px;
+  background-color: #4d873e;
+  margin: 0;
+  width: 100%;
 }
 
-.div3 {
-  padding: 2%;
-  border-radius: 0;
+.bottom-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
-  color: #112d4e;
-  height: 230px;
-  background-color: #dbe2ef;
 }
 
-.computer {
-  width: 150px;
-}
-
-.linkedin {
-  width: 150px;
+.linkedinimg {
+  width: 100px;
   position: relative;
-  left: 10px;
+  left: 5px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #112d4e;
+  color: #f9f7f7;
 }
